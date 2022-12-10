@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-dark">
+  <nav class="navbar navbar-expand-lg fixed-top bg-dark">
     <div class="container">
       <a class="navbar-brand text-bg-dark" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
@@ -24,16 +24,16 @@
             <a class="nav-link active text-bg-dark" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-bg-dark" href=".aboutus">About</a>
+            <a class="nav-link text-bg-dark" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled text-bg-dark">What I Do</a>
+            <a class="nav-link text-bg-dark" href="#service">What I Do</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled text-bg-dark">Resume</a>
+            <a class="nav-link text-bg-dark" href="#resumes">Resume</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled text-bg-dark">Contact</a>
+            <a class="nav-link text-bg-dark">Contact</a>
           </li>
         </ul>
       </div>
@@ -41,48 +41,49 @@
   </nav>
 
 
-
-
-
   <!-- About Us -->
-  <div class="aboutus">
+  <div class="aboutus" id="about">
     <div class="position-relative d-flex text-center mb-5">
       <h2 class="text-24 text-muted opacity-1 text-uppercase fw-600 w-100 mb-0">About Me</h2>
       <p class="text-9 text-white fw-600 position-absolute w-100 align-self-center lh-base mb-0">Know Me More<span
           class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
     </div>
     <div class="row inner_aboutus">
-      <div class="col col-lg-6 col-md-12 col-sm-12">
-        <h4>I'm <span class="aboutus_name">Tawfeek Khan,</span>a Web Developer</h4>
+      <div class="col col-lg-8 col-md-12 col-12">
+        <h4>I'm <span class="green_color">Tawfeek Khan,</span>a Web Developer</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio alias atque aperiam mollitia. Repudiandae
           animi, similique et a dolore in voluptas possimus reiciendis mollitia dignissimos? Accusamus nemo quo magni
           fugiat?</p>
       </div>
-      <div class="col col-lg-6 col-md-12 col-sm-12">
+      <div class="col col-lg-4 col-md-12 col-12">
         <p><span>Name: </span>Tawfeek Khan</p>
-        <a href="mailto:khantawfeek00@gmail.com"><span>Email: </span>khantawfeek00@gmail.com</a>
+        <hr>
+        <p><span>Email: </span>khantawfeek00@gmail.com</p>
+        <hr>
         <p><span>Age: </span>20</p>
+        <hr>
         <p><span>From: </span>Nagpur, India</p>
+        <hr>
         <button type="button" class="download_cv">Download CV</button>
       </div>
     </div>
 
     <div class="row">
-      <div class="col col-lg-3 col-md-6 ">
-        <h1>10+</h1>
-        <p>Years Experience</p>
+      <div class="col col-lg-3 col-md-3 col-6 text-right rb">
+        <h1 class="float-right">10+</h1>
+        <p class="float-right">Years Experience</p>
       </div>
-      <div class="col col-lg-3 col-md-6">
-        <h1>250+</h1>
-        <p>Hapy Clients</p>
+      <div class="col col-lg-3 col-md-3 col-6">
+        <h1 class="float-right">250+</h1>
+        <p class="float-right">Hapy Clients</p>
       </div>
-      <div class="col col-lg-3 col-md-6">
-        <h1>650+</h1>
-        <p>Projecs Done</p>
+      <div class="col col-lg-3 col-md-3 col-6">
+        <h1 class="float-right">650+</h1>
+        <p class="float-right">Projecs Done</p>
       </div>
-      <div class="col col-lg-3 col-md-6">
-        <h1>38</h1>
-        <p>Get Awards</p>
+      <div class="col col-lg-3 col-md-3 col-6">
+        <h1 class="float-right">38</h1>
+        <p class="float-right">Get Awards</p>
       </div>
     </div>
   </div>
@@ -91,7 +92,7 @@
 
 
   <!-- Services -->
-  <div class="Whatido">
+  <div class="Whatido" id="service">
     <div class="position-relative d-flex text-center mb-5">
       <h2 class="text-24 text-muted opacity-1 text-uppercase fw-600 w-100 mb-0">Services</h2>
       <p class="text-9 text-white fw-600 position-absolute w-100 align-self-center lh-base mb-0">What I Do?<span
@@ -99,43 +100,79 @@
     </div>
 
     <div class="row service_row">
-      <div class="col col-lg-6 col-md-12 col-sm-12">
-        <i class="fa-solid fa-palette services_logo"></i>
-        <p class="service_title">Graphic Design</p>
-        <p class="service_data">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsam non autem cumque expedita, ab nisi
-          molestiae nostrum minima vitae nobis ipsa voluptate facilis soluta eaque eum? Explicabo, aut reprehenderit?
+      <div class="col col-lg-6 col-md-12 col-12">
+        <table>
+          <tr>
+            <td>
+              <i class="fa-solid fa-palette services_logo"></i>
+            </td>
+            <td>
+              <p class="service_title">Graphic Design</p>
+              <p class="service_data">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsam non autem
+                cumque expedita, ab nisiolestiae nostrum minima vitae nobis ipsa voluptate facilis soluta eaque eum?
+                Explicabo, aut reprehenderit?
+            </td>
+          </tr>
+        </table>
         </p>
       </div>
-
-      <div class="col col-lg-6 col-md-12 col-sm-12">
-        <i class="fa-solid fa-desktop services_logo"></i>
-        <p class="service_title">Web Design</p>
-        <p class="service_data">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsam non autem cumque expedita, ab nisi
-          molestiae nostrum minima vitae nobis ipsa voluptate facilis soluta eaque eum? Explicabo, aut reprehenderit?
+      <div class="col col-lg-6 col-md-12 col-12">
+        <table>
+          <tr>
+            <td>
+              <i class="fa-solid fa-desktop services_logo"></i>
+            </td>
+            <td>
+              <p class="service_title">Web Design</p>
+              <p class="service_data">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsam non autem
+                cumque expedita, ab nisiolestiae nostrum minima vitae nobis ipsa voluptate facilis soluta eaque eum?
+                Explicabo, aut reprehenderit?
+            </td>
+          </tr>
+        </table>
         </p>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col col-lg-6 col-md-12 col-sm-12">
-        <i class="fa-solid fa-pen-ruler services_logo"></i>
-        <p class="service_title">UI/UX Design</p>
-        <p class="service_data">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsam non autem cumque expedita, ab nisi
-          molestiae nostrum minima vitae nobis ipsa voluptate facilis soluta eaque eum? Explicabo, aut reprehenderit?
+
+    <div class="row service_row">
+      <div class="col col-lg-6 col-md-12 col-12">
+        <table>
+          <tr>
+            <td>
+              <i class="fa-solid fa-pen-ruler services_logo"></i>
+            </td>
+            <td>
+              <p class="service_title">UI/UX Design</p>
+              <p class="service_data">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsam non autem
+                cumque expedita, ab nisiolestiae nostrum minima vitae nobis ipsa voluptate facilis soluta eaque eum?
+                Explicabo, aut reprehenderit?
+            </td>
+          </tr>
+        </table>
         </p>
       </div>
-
-      <div class="col col-lg-6 col-md-12 col-sm-12">
-        <i class="fa-duotone fa-code services_logo"></i>
-        <p class="service_title">Developing Web and App</p>
-        <p class="service_data">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsam non autem cumque expedita, ab nisi
-          molestiae nostrum minima vitae nobis ipsa voluptate facilis soluta eaque eum? Explicabo, aut reprehenderit?
+      <div class="col col-lg-6 col-md-12 col-12">
+        <table>
+          <tr>
+            <td>
+              <i class="fa-solid fa-laptop-code services_logo"></i>
+            </td>
+            <td>
+              <p class="service_title">Developing Web and App</p>
+              <p class="service_data">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsam non autem
+                cumque expedita, ab nisiolestiae nostrum minima vitae nobis ipsa voluptate facilis soluta eaque eum?
+                Explicabo, aut reprehenderit?
+            </td>
+          </tr>
+        </table>
         </p>
       </div>
     </div>
+
 
     <!-- Resume -->
-    <div class="resume">
+    <div class="resume" id="resumes">
       <div class="position-relative d-flex text-center mb-5">
         <h2 class="text-24 text-muted opacity-1 text-uppercase fw-600 w-100 mb-0">Summery</h2>
         <p class="text-9 text-white fw-600 position-absolute w-100 align-self-center lh-base mb-0">Resume<span
@@ -143,21 +180,21 @@
       </div>
 
       <div class="row">
-        <div class="col">
-          <h4>My Experience</h4>
+        <div class="col col-lg-6 col-md-12 col-12">
+          <h4 class="text-center">My Education</h4>
           <div class="row">
-            <div class="col">
+            <div class="col col-12">
               <div class="edu_1">
                 <p class="year">2000-2004</p>
                 <p class="edu_title">Computer Science</p>
-                <p class="edu_subtitle">Interna tional University</p>
+                <p class="edu_subtitle">International University</p>
                 <p class="edu_desc">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
                   possim iriure.</p>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col col-12">
               <div class="edu_1">
                 <p class="year">2005-2008</p>
                 <p class="edu_title">Bachelor Degree</p>
@@ -168,7 +205,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col col-12">
               <div class="edu_1">
                 <p class="year">2009-2012</p>
                 <p class="edu_title">Master Degree</p>
@@ -179,7 +216,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col col-12">
               <div class="edu_1">
                 <p class="year">2000-2004</p>
                 <p class="edu_title">Computer Science</p>
@@ -193,49 +230,49 @@
 
 
         </div>
-        <div class="col">
-          <h4>My Experience</h4>
+        <div class="col col-lg-6 col-md-12 col-12">
+          <h4  class="text-center">My Experience</h4>
           <div class="row">
-            <div class="col">
+            <div class="col col-12">
               <div class="edu_1">
-                <p class="year">2012-2013</p>
-                <p class="edu_title">Jr. UI UX Designer</p>
-                <p class="edu_subtitle">Themeforest</p>
-                <p class="edu_desc">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
-                  possim iriure.</p>
+              <p class="year">2012-2013</p>
+              <p class="edu_title">Jr. UI UX Designer</p>
+              <p class="edu_subtitle">Themeforest</p>
+              <p class="edu_desc">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
+                possim iriure.</p>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col col-12">
               <div class="edu_1">
-                <p class="year">2014-2016</p>
-                <p class="edu_title">Jr. Product Designer</p>
-                <p class="edu_subtitle">Dribbble</p>
-                <p class="edu_desc">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
-                  possim iriure.</p>
+              <p class="year">2014-2016</p>
+              <p class="edu_title">Jr. Product Designer</p>
+              <p class="edu_subtitle">Dribbble</p>
+              <p class="edu_desc">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
+                possim iriure.</p>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col col-12">
               <div class="edu_1">
-                <p class="year">2017-2019</p>
-                <p class="edu_title">Product Designer</p>
-                <p class="edu_subtitle">Adobe</p>
-                <p class="edu_desc">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
-                  possim iriure.</p>
+              <p class="year">2017-2019</p>
+              <p class="edu_title">Product Designer</p>
+              <p class="edu_subtitle">Adobe</p>
+              <p class="edu_desc">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
+                possim iriure.</p>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col col-12">
               <div class="edu_1">
-                <p class="year">2000-2004</p>
-                <p class="edu_title">Computer Science</p>
-                <p class="edu_subtitle">International University</p>
-                <p class="edu_desc">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
-                  possim iriure.</p>
+              <p class="year">2000-2004</p>
+              <p class="edu_title">Computer Science</p>
+              <p class="edu_subtitle">International University</p>
+              <p class="edu_desc">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
+                possim iriure.</p>
               </div>
             </div>
           </div>
@@ -301,7 +338,7 @@
 
       </div> -->
       <div class="row">
-        <div class="col col-lg-4 col-md-3 contact_info">
+        <div class="col col-lg-6 col-md-3 contact_info">
           <h5>Contact info</h5>
           <a href="https://goo.gl/maps/WoMSPUAWwuUnTkcr6" target="_blank" class="address"><i class="fa-solid fa-location-dot"></i>30, Sambhaji Nagar,
             Parsodi, Subhash Nagar, Trimurtee Nagar, Nagpur, Maharashtra 440022</a>
@@ -320,7 +357,7 @@
             <a href="https://www.linkedin.com/in/tawfeek-khan-1055421a9/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
           </span>
         </div>
-        <div class="col ol-lg-8 col-md-6">
+        <div class="col col-lg-6 col-md-6">
           <form action="#">
             <label for="Name">NAME</label><br>
             <input type="text" class="name" placeholder="Type your name"><br><br>
