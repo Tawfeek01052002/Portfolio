@@ -3,6 +3,11 @@ body {
     overflow-x:hidden;
 }
 
+
+.gray{
+    color:#6c757d;
+    font-weight: 500;
+}
 .row{
     margin: 30px;
 }
@@ -43,6 +48,10 @@ h2 {
 }
 
 
+
+
+
+
 /* Head Border */
 .border-primary {
     border-color: #20c997 !important;
@@ -56,6 +65,9 @@ h2 {
     margin-right: auto !important;
     margin-left: auto !important;
 }
+
+
+
 
 
 /* Know me more */
@@ -79,10 +91,13 @@ h2 {
     font-size: calc(1.95rem + 6.4vw);
 }
 
-
 span {
     color: white;
 }
+
+
+
+
 
 
 /* Download Button */
@@ -95,6 +110,9 @@ span {
     border-radius: 20px;
     padding: 15px;
 }
+
+
+
 
 
 /* Services */
@@ -174,7 +192,108 @@ span {
 }
 
 
+
+
+/* Skills*/
+.MySkills{
+    color: white;
+    padding-bottom: 30px;
+}
+
+strong{
+    float: right;
+}
+
+.skill{
+    height: 8px;
+    background-color: #111418;
+    margin-bottom: 20px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.skillset{
+    height: 8px;
+    background-color: #20c997;
+    border-radius: 0px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+.one{
+    width: 65%;
+}
+.two{
+    width: 95%;
+}
+.three{
+    width: 80%;
+}
+.four{
+    width: 70%;
+}
+.five{
+    width: 60%;
+}
+.six{
+    width: 99%;
+}
+
+
+.second_btn{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    color: #111418;
+    background-color: #6c757d;
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+
+
+
 /* contact */
 .contact {
     background-color: #212529;
+}
+
+a{
+    text-decoration: none;
+    color: #707983;
+}
+
+a:hover {
+    color: white;
+}
+
+i{
+    padding: 5px;
+}
+
+input,textarea{
+    color: #707983;
+    width: 100%;
+    border: none;
+    background-color: #111418;
+    padding: 15px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button{
+    margin-top: 10px;
+    background-color: #20c997;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
 }
