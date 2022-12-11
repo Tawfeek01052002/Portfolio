@@ -288,7 +288,6 @@ input,textarea{
 }
 
 button{
-    margin-top: 10px;
     background-color: #20c997;
     padding: 10px;
     color: white;
@@ -296,4 +295,27 @@ button{
     font-weight: bold;
     border: none;
     border-radius: 5px;
+}
+
+.contact_info i{
+    color: #20c997;
+}
+
+
+.follow a{
+    font-size: 24px;
+}
+
+
+.send{
+    background-color: #20c997;
+    color: white;
+}
+
+/* CopyRight */
+.footer{
+    padding: 30px;
+    text-align: center;
+    background-color: #343a40;
+    color: white;
 }
