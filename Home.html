@@ -8,40 +8,92 @@
   <title>Home</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css ">
   <link rel="stylesheet" href="Home.css">
+  <!-- <link rel="stylesheet" href="Test.css"> -->
+
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg fixed-top bg-dark">
-    <div class="container">
-      <a class="navbar-brand text-bg-dark" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-center " id="navbarTogglerDemo02">
-        <ul class="navbar-nav mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active text-bg-dark" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-bg-dark" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-bg-dark" href="#service">What I Do</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-bg-dark" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-bg-dark" href="#resumes">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-bg-dark">Contact</a>
-          </li>
+
+  <nav class="primary-menu navbar navbar-expand-lg navbar-dark border-bottom-0">
+    <div class="container-fluid position-relative g-lg-4">
+      <div class="col col-lg-2">
+        <!-- Logo -->
+        <a class="logo" href="index.html" title="Tawfeek Khan"> <img src="images/Logo.png" alt="Tawfeek Khan"> </a>
+        <!-- Logo End -->
+      </div>
+      <div class="col col-lg-8 navbar-accordion">
+        <button class="navbar-toggler ms-auto collapsed menu-toggle-btn" type="button" data-bs-toggle="collapse"
+          data-bs-target="#header-nav" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div id="header-nav" class="navbar-collapse justify-content-center collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link smooth-scroll active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link smooth-scroll" href="#services">What I Do</a></li>
+            <li class="nav-item"><a class="nav-link smooth-scroll" href="#resume">Resume</a></li>
+            <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link smooth-scroll" href="#testimonial">Client</a></li>
+            <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-auto col-lg-2 justify-content-center">
+        <ul class="social-icons social-icons-light">
+          <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="https://www.linkedin.com/in/tawfeek-khan-1055421a9/" target="_blank"
+              title="" data-bs-original-title="Twitter"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="https://www.instagram.com/tawfeeeek_/" target="_blank"
+              title="" data-bs-original-title="Facebook"><i class="fa-brands fa-instagram"></i></a></li>
+          <li class="social-icons-dribbble"><a data-bs-toggle="tooltip" href="https://github.com/Tawfeek01052002" target="_blank"
+              title="" data-bs-original-title="Dribbble"><i class="fa-brands fa-github"></i></a></li>
         </ul>
       </div>
     </div>
   </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <div class="home" id="HOME">
+    <div class='console-container'>
+      <canvas id="canvas">Canvas is not supported in your browser.</canvas>
+    </div>
+  </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -57,7 +109,7 @@
     </div>
     <div class="row inner_aboutus">
       <div class="col col-lg-8 col-md-12 col-12">
-        <h4 class="text-white">I'm <span class="green_color">Tawfeek Khan,</span>a Web Developer</h4>
+        <h4 class="text-white">I'm <span class="green_color">Tawfeek Khan, </span>a Web Developer</h4>
         <p class="gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio alias atque aperiam mollitia.
           Repudiandae
           animi, similique et a dolore in voluptas possimus reiciendis mollitia dignissimos? Accusamus nemo quo magni
@@ -95,6 +147,18 @@
       </div>
     </div>
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -179,6 +243,21 @@
         </p>
       </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -298,6 +377,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!--My Skills-->
     <div class="MySkills" id="skills">
 
@@ -348,8 +442,20 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   <!-- contact us -->
-  <div class="contact">
+  <div class="contact" id="contacting">
     <div class="position-relative d-flex text-center mb-5">
       <h2 class="text-24 text-muted opacity-1 text-uppercase fw-600 w-100 mb-0">Contact</h2>
       <p class="text-9 text-white fw-600 position-absolute w-100 align-self-center lh-base mb-0">Get in Touch<span
@@ -378,22 +484,37 @@
               class="fa-brands fa-linkedin-in"></i></a>
         </span>
       </div>
-      
+
       <div class="col col-lg-8 col-md-8 col-12">
         <h4 class="text-white text-center">SEND US A NOTE</h4>
         <form action="#">
-          <label for="Name">NAME</label><br>
-          <input type="text" class="name" placeholder="Type your name"><br><br>
-          <label for="Name">PHONE NUMBER</label><br>
-          <input type="number" class="phone" placeholder="Type your phone number"><br><br>
-          <label for="Name">EMAIL</label><br>
-          <input type="email" class="email" placeholder="Type your email address"><br><br>
-          <p for="Name">YOUR MESSAGE</p>
+          <label for="Name" class="label">NAME</label><br>
+          <input type="text" id="Name" class="name" placeholder="Type your name"><br><br>
+          <label for="Phone" class="label">PHONE NUMBER</label><br>
+          <input type="number" id="Phone" class="phone" placeholder="Type your phone number"><br><br>
+          <label for="Email" class="label">EMAIL</label><br>
+          <input type="email" id="Email" class="email" placeholder="Type your email address"><br><br>
+          <label for="message" class="label">YOUR MESSAGE</label>
           <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
         </form>
         <button type="submit" class="second_btn send">SEND MESSAGE</button>
       </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <!-- footer -->
@@ -414,6 +535,17 @@
 
 
 
+
+
+
+
+
+
+
+  <script src="Back_Animation.js"></script>
+  <script src="Text_Animation.js"></script>
+  <!-- <script src="Home.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/277b6d9767.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

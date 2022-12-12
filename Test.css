@@ -1,0 +1,10 @@
+body {
+	background: transparent;
+	margin: 0;
+}
+
+canvas {
+	cursor: crosshair;
+  width: 100%;
+  height: 100%;
+}
