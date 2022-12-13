@@ -221,7 +221,10 @@ textarea {
 
 
 
-
+.logo{
+    border: none;
+    border-bottom: 2px solid #20c997;
+}
 
 
 
