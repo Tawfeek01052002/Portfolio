@@ -240,41 +240,46 @@ textarea {
     z-index: 1;
     margin-left: 0px;
     text-align: left;
-    background: transparent;width: 600px;
+    background: transparent;
+    width: 60%;
 }
-
-.home_col_1{
-    padding: 10px;
+.welcome{
+    font-size: 30px;
+    color: #111418;
+    margin-top:100px ;
 }
-
+.based{
+    font-size: 20px;
+}
 
 .profile{
+    width: 100%;
     border: 5px solid #111418;
     border-radius: 50%;
     position: relative;
-    transform: translateX(-50%);
+    transform: translate(-50%,-50%);
     left: 50%;
+    top: 50%;
+    object-fit:scale-down;
+    object-position: 50%;
 }
 
-
-.span_text{
-    font-weight: 400;
+.span_text,#text{
+    font-weight: 600;
     font-size: 30px;
+    color: #212529;
 }
 
-#text{
-    font-size: 30px;
+.gotoicon{
+    background: transparent;
+    border: 1px solid #343a40;
+    width: fit-content;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 25px;
 }
-
-
-
-.home {
-    margin: 0;
-    height: 100%;
-    padding: 0px;
-    margin: 0px;
-}
-
 
 
 canvas {
