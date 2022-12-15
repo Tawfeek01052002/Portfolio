@@ -55,61 +55,58 @@ h2 {
 
 
 
+
 /* navbar */
 
-.navbar {
+.gotoscroll {
+    background-color: transparent;
+    height: 60px;
+}
+
+.nav-colored {
     background-color: #212529;
 }
-.nav-link{
+
+.nav-transparent {
+    background-color: transparent;
+}
+
+.nav-link {
     padding-left: 10px;
     font-weight: 600;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: #111418;
     display: block;
-    background-color: #20c997;
+    border-bottom: ease ;
 
 }
 
-.logo_1{
-    margin-left: 5px;
+.logo_1 {
+    padding-left: 5px;
+    white-space: nowrap;
     font-weight: 700;
-    font-size: 125%;
+    font-size: 30px;
     margin: 0;
     display: block;
     width: fit-content;
-    border-bottom:3px solid #20c997 ;
-    
+    border-bottom: 3px solid #212529;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
-[type=button]:not(:disabled),
-[type=reset]:not(:disabled),
-[type=submit]:not(:disabled),
-button:not(:disabled) {
-    cursor: pointer;
+.logo_1_color{
+    border-bottom: 3px solid #20c997;
 }
 
-
-/* Test */
-[type=button]:not(:disabled),
-[type=reset]:not(:disabled),
-[type=submit]:not(:disabled),
-button:not(:disabled) {
-    cursor: pointer;
-}
 
 .navbar-toggler {
     width: 25px;
     height: 30px;
-    padding: 10px;
     margin: 18px 15px;
     position: relative;
     border: none;
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out;
     cursor: pointer;
     display: block;
 }
@@ -225,10 +222,10 @@ textarea {
 
 /* home */
 
-.home_data{
+.home_data {
     margin: 0px;
     position: absolute;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
     z-index: 1;
@@ -237,37 +234,48 @@ textarea {
     width: 90%;
 }
 
-.welcome{
+.welcome {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 150%;
     color: #212529;
 }
-.based{
+
+.based {
     font-size: 20px;
     font-weight: 500;
     color: #212529;
 }
 
-.profile{
+.profile {
     border: 5px solid #111418;
     border-radius: 50%;
     position: relative;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     left: 50%;
+    margin-left: 10px;
     top: 50%;
-    object-fit:scale-down;
+    object-fit: scale-down;
     object-position: 50%;
     max-width: 300px;
     width: 90%;
 }
 
-.span_text,#text{
+
+/* profile Animation */
+
+
+
+
+/* End of profile Animation */
+.span_text,
+#text {
     font-weight: 600;
     font-size: 45px;
     color: #212529;
+    white-space: nowrap;
 }
 
-.gotoicon{
+.gotoicon {
     background: transparent;
     border: 1px solid #343a40;
     width: fit-content;
@@ -347,9 +355,9 @@ canvas {
 
 /* Know me more */
 .aboutus {
+    margin-top: 20px;
     background-color: #212529;
     color: #909294;
-    padding: 30px;
 }
 
 .inner_aboutus {
@@ -428,6 +436,7 @@ span {
 /* Services */
 .Whatido {
     background-color: #343a40;
+    margin-top: 20px;
 }
 
 .service_title {
@@ -495,6 +504,7 @@ span {
 .resume {
     background-color: #212529;
     color: white;
+    margin-top: 20px;
 }
 
 .edu_1 {
@@ -558,7 +568,7 @@ span {
 /* Skills*/
 .MySkills {
     color: white;
-    padding-bottom: 30px;
+    margin-top: 20px;
 }
 
 strong {
@@ -657,6 +667,7 @@ strong {
 /* contact */
 .contact {
     background-color: #212529;
+    margin-top: 20px;
 }
 
 a {
@@ -726,21 +737,6 @@ button {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* CopyRight */
 .footer {
     padding: 30px;
@@ -748,45 +744,3 @@ button {
     background-color: #343a40;
     color: white;
 }
-
-
-
-
-
-/* TExt_ANimation */
-
-/* #header {
-    transition: all 0.5s ease;
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-header {
-    display: block;
-}
-body {
-    background: #dddddd;
-    color: #4c4d4d;
-    font-family: "Poppins", sans-serif;
-}
-body {
-    margin: 0;
-    font-size: var(--bs-body-font-size);
-    font-weight: var(--bs-body-font-weight);
-    line-height: var(--bs-body-line-height);
-    text-align: var(--bs-body-text-align);
-    background-color: var(--bs-body-bg);
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-::selection {
-    background: #20c997;
-    color: #fff;
-    text-shadow: none;
-} */
