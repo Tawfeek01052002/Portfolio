@@ -80,6 +80,11 @@ h2 {
     color: white;
 }
 
+.nav-link:is(:link,:active,:visited).active{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
 .logo_1 {
     padding-left:5px ;
     white-space: nowrap;
@@ -198,7 +203,7 @@ textarea {
 
 /* Social Icons */
 .social-icons {
-    margin-left: 0px;
+    margin-left: 0px
 }
 
 .social-icons li {
@@ -209,12 +214,9 @@ textarea {
     margin: 5px;
 }
 
-
-
-
-
-
-
+.icons:hover{
+    color: #fff;
+}
 
 
 /* home */
@@ -233,7 +235,7 @@ textarea {
 
 .welcome {
     font-weight: 700;
-    font-size: 150%;
+    font-size: 30px;
     color: #212529;
 }
 

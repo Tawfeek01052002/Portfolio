@@ -1,5 +1,5 @@
 // function([string1, string2],target id,[color1,color2])    
- consoleText(['Tawfeek Khan', 'Developer', 'Designer',''], 'text',['red','yellow','blue']);
+ consoleText(['Tawfeek Khan', 'Developer', 'Designer',''], 'text',['red','yellow','#343a40']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
@@ -46,5 +46,5 @@ function consoleText(words, id, colors) {
       // con.className = 'console-underscore'
       visible = true;
     }
-  }, 400)
+  }, 400);
 }
