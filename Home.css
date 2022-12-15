@@ -74,28 +74,25 @@ h2 {
 .nav-link {
     padding-left: 10px;
     font-weight: 600;
+    color: white;
 }
 
 .nav-link:hover {
-    color: white;
-}
-
-.nav-link:is(:link,:active,:visited).active{
-    color: white;
-    border-bottom: 1px solid white;
+    color: #707983;
 }
 
 .logo_1 {
     padding-left:5px ;
     white-space: nowrap;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
     margin: 0;
     display: block;
     width: fit-content;
     border-bottom: 3px solid #212529;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
+    cursor:pointer;
 }
 
 .logo_1_color{
@@ -503,7 +500,7 @@ span {
 .resume {
     background-color: #212529;
     color: white;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .edu_1 {
@@ -567,7 +564,7 @@ span {
 /* Skills*/
 .MySkills {
     color: white;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 strong {
@@ -592,28 +589,31 @@ strong {
     border-bottom-left-radius: 5px;
 }
 
+.zero{
+    width: 50%;
+}
 .one {
-    width: 65%;
+    width: 90%;
 }
 
 .two {
-    width: 95%;
+    width: 75%;
 }
 
 .three {
-    width: 80%;
+    width: 95%;
 }
 
 .four {
-    width: 70%;
+    width: 75%;
 }
 
 .five {
-    width: 60%;
+    width: 95%;
 }
 
 .six {
-    width: 99%;
+    width: 90%;
 }
 
 
