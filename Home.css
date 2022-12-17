@@ -4,7 +4,6 @@ body {
     background-color: #212529;
 }
 
-
 .gray {
     color: #6c757d;
     font-weight: 500;
@@ -60,7 +59,7 @@ h2 {
 
 .gotoscroll {
     background-color: transparent;
-    height: 60px;
+    height: 70px;
 }
 
 .nav-colored {
@@ -432,7 +431,6 @@ span {
 /* Services */
 .Whatido {
     background-color: #343a40;
-    margin-top: 20px;
     padding-top: 30px;
 }
 
